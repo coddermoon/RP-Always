@@ -68,11 +68,88 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    
 }
 .card p{
     font-size: 1.2rem;
     font-weight:600;
     text-align: left;
     padding: 10px 20px;
+}
+
+
+.serviceContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-left: 2px solid red;
+    padding-left: 20px;
+    margin-top: 50px;
+    
+
+}
+.singleService{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+   
+}
+
+.icnimg{
+width: 70px;
+
+}
+.content{
+    margin-left:20px
+}
+.content p {
+    font-size: 18px;
+}
+.content h3{
+    font-size: 30px;
+    font-weight: bold;
+   margin-bottom: 10px;
+}
+
+/* extra
+
+*/
+.extra{
+    background:url('./../images/bg2.png');
+   width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #094367;
+  
+
+}
+.ecContent{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}
+.leftContent h2{
+    font-size: 42px;
+}
+
+.treeser{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    gap: 10px;
+    
+}
+.data{
+    margin: auto 20px
+    ;
+}
+
+.leftContent{
+    width: 60%;
 }

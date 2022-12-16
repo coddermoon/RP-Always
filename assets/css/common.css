@@ -37,9 +37,48 @@ a{
 .relative{
     position: relative;
 }
+
 .mt-5{
     margin-top: 20px;
 }
 img{
     max-width: 100%;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.footer{
+    background-color: #181818;
+    color: #fff;
+}
+
+.cols-span-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.footer-flexc{
+display: flex;
+justify-content: space-between;
+margin: 20px;
+}
+
+.footer-he{
+    font-size: 22px;
+}
+
+.mb-5{
+    margin-bottom: 20px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
