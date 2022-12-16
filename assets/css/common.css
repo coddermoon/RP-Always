@@ -37,3 +37,9 @@ a{
 .relative{
     position: relative;
 }
+.mt-5{
+    margin-top: 20px;
+}
+img{
+    max-width: 100%;
+}
